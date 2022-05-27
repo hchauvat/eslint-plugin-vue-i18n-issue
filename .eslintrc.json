@@ -14,7 +14,7 @@
     ]
   },
   "parserOptions": {
-    "parser": "babel-eslint"
+    "parser": "@babel/eslint-parser"
   },
   "settings": {
     "vue-i18n": {

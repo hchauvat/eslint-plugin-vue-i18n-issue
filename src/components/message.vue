@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h1>{{ $t("title") }}</h1>
-    <button @click="switchLocale">Switch lang</button>
+    <button @click="switchLocale">{{ $t("title") }}</button>
   </div>
 </template>
 
