@@ -1,0 +1,25 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "plugin:@intlify/vue-i18n/recommended"],
+  "rules": {
+    "@intlify/vue-i18n/no-unused-keys": [
+      "warn",
+      {
+        "extensions": [".js", ".vue"]
+      }
+    ]
+  },
+  "parserOptions": {
+    "parser": "babel-eslint"
+  },
+  "settings": {
+    "vue-i18n": {
+      "localeDir": "src/i18n/*.json",
+      "messageSyntaxVersion": "^8.24.0"
+    }
+  }
+}
